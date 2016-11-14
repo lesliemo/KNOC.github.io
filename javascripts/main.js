@@ -1,4 +1,5 @@
-console.log('<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyD0cBqHnXc4o8bUybIAf-CtzzPykDCT-Kw&sensor=false&extension=.js'></script> 
+console.log('document.body');
+	    '<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyD0cBqHnXc4o8bUybIAf-CtzzPykDCT-Kw&sensor=false&extension=.js'></script> 
  
 <script> 
     google.maps.event.addDomListener(window, 'load', init);
@@ -72,4 +73,4 @@ link = '';     }
 </style>
 
 <div id='KYGreenBookDirectory'></div>
-');
+
