@@ -1,4 +1,4 @@
-  console.log('');
+  console.log('mouseover');
               google.maps.event.addDomListener(window, 'load', init);
 
     var map;
