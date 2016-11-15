@@ -1,4 +1,4 @@
-<script> 
+
     google.maps.event.addDomListener(window, 'load', init);
     var map;
     function init() {
@@ -50,5 +50,5 @@
 link = '';     }
 
 }
-</script>
+
 			  	
