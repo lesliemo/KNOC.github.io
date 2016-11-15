@@ -1,6 +1,5 @@
-  console.log('mouseover');
+  console.log('');
               google.maps.event.addDomListener(window, 'load', init);
-
     var map;
     function init() {
         var mapOptions = {
