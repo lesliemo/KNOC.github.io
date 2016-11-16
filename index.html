@@ -58,11 +58,24 @@
 			<p><img src="https://github.com/lesliemo/KNOC.github.io/blob/gh-pages/images/14316836_518936044971407_8310644403220153589_n.jpg?raw=true" alt="KNOC Banner for Header"></p>
  		<!–– Hero Post ––>
 		<article>
-          
+          	<!–– "responsive container" not currently linked to CSS, exluding "KYGreenBookDirectory" styling notated in the 'head html tag'––>
 		  <div class="responsive-container">
+			  <!–– Map Div––>
                 <div id="KYGreenBookDirectory"></div>
-                               <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyD0cBqHnXc4o8bUybIAf-CtzzPykDCT-Kw&sensor=false&extension=.js'></script> 
- 					<script> 
+			  <!–– "KYGreenBookDirectory" not currently linked to javascript console, exluding html script type="text/javascript" src="main.js" notated in the 'head html tag'
+			  will need 3rd party assistance to complete api integration––>
+                        
+			  <!–– Javascript reference source url for Google Map used in this post
+			  includes Google Maps api key
+			  probably needs to be positioned in either the head, or the javascript console
+			  will need 3rd party to help me integrate this piece––>    
+			
+			  <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyD0cBqHnXc4o8bUybIAf-CtzzPykDCT-Kw&sensor=false&extension=.js'></script> 
+ 			
+			    <!–– Javascript source code 
+			  Does this need to go into the javascript console?––>
+			  
+			  <script> 
     google.maps.event.addDomListener(window, 'load', init);
     var map;
     function init() {
