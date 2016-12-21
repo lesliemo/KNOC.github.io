@@ -190,7 +190,7 @@ img {
  */
 
 svg:not(:root) {
-  overflow: auto;
+  overflow: hidden;
 }
 
 /* Grouping content
@@ -878,7 +878,7 @@ footer a:hover {
 	padding-bottom: 56.25%;
 	padding-top: 30px;
 	height: 0;
-	overflow: auto;
+	overflow: hidden;
 }
 .responsive-container iframe {
 	position: absolute;
@@ -898,7 +898,7 @@ ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: auto;
+    overflow: hidden;
     background-color: #333;
 }
 
@@ -1010,11 +1010,11 @@ body {
   padding: 0;
   margin: 0;
   font: bold 11px/14px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  overflow: auto;
+  overflow: hidden;
 }
 .slack-button {
   height: 20px;
-  overflow: auto;
+  overflow: hidden;
   display: inline-block;
 }
 .slack-btn,
