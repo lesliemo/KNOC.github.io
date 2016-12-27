@@ -1015,7 +1015,7 @@ body {
 
 #myFrame { width:100%; height:1450px; overflow: auto;}
 
-#myCalendar { width:100%; height:100%; }
+#myCalendar { width:100%; height:400%; }
 
 .slack-button {
   height: 20px;
