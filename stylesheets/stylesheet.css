@@ -878,7 +878,7 @@ footer a:hover {
 	padding-bottom: 56.25%;
 	padding-top: 30px;
 	height: 0;
-	overflow: hidden;
+	overflow: auto;
 }
 .responsive-container iframe {
 	position: absolute;
@@ -1010,11 +1010,11 @@ body {
   padding: 0;
   margin: 0;
   font: bold 11px/14px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  overflow: hidden;
+  overflow: auto;
 }
 .slack-button {
   height: 20px;
-  overflow: hidden;
+  overflow: auto;
   display: inline-block;
 }
 .slack-btn,
