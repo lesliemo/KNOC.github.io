@@ -1012,6 +1012,9 @@ body {
   font: bold 11px/14px "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow: auto;
 }
+
+#myFrame { width:100%; height:100%; }
+
 .slack-button {
   height: 20px;
   overflow: auto;
