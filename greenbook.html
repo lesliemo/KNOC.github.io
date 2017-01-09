@@ -61,29 +61,17 @@
 		  
               <h3>KNOC is Now Taking entries for our #kyGreenBook Directory</h3>
 			<!–– Hero Post Content ––>
-            <p>Safe Space is important. And while we appreciate the efforts of those donning safety pins to show their solidarity and support, we want to make sure that YOU have the tools you need to quickly identify allies and community spaces that offer support and inclusion.</p>
-          			<!–– Safe Space Nominee Submission Form, using Google forms
-			Is there a way to embed source code using something other than iframe? 
-			Responsive option would be more accessible on mobile devices
-			May need to think through coding convention for alt text and other accessibility considerations––>
+            <p>Safe Space is important. And while we appreciate the efforts of those donning safety pins to show their solidarity and support, we want to make sure that YOU have the tools you need to quickly identify allies and community spaces that offer support and inclusion.
+          		  <!–– Map Div––>	
           	<!–– "responsive container" not currently linked to CSS, exluding "KYGreenBookDirectory" styling notated in the 'head html tag'––>
 		  <div class="responsive-container">
-			  <!–– Map Div––>
-                <div id="KYGreenBookDirectory"></div>
-			  <!–– "KYGreenBookDirectory" not currently linked to javascript console, exluding html script type="text/javascript" src="main.js" notated in the 'head html tag'
-			  will need 3rd party assistance to complete api integration––>
-                        
+			  <div id="KYGreenBookDirectory"></div>                     
 			  <!–– Javascript reference source url for Google Map used in this post
 			  includes Google Maps api key
 			  probably needs to be positioned in either the head, or the javascript console
 			  will need 3rd party to help me integrate this piece––>    
-			
 			  <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyD0cBqHnXc4o8bUybIAf-CtzzPykDCT-Kw&extension=.js'></script> 
- 			
-			    <!–– Javascript source code 
-			  Does this need to go into the javascript console?
-			  https://lesliemo.github.io/KNOC.github.io/ returns a script error when the site tries to render the javascript––>
-			  
+ 			  
 <script> 
     google.maps.event.addDomListener(window, 'load', init);
     var map;
@@ -137,6 +125,7 @@ link = '';     }
 
 }
 </script>
+			  </p>
 			  <br/>	  
              		  </div>
 			</div>
@@ -154,6 +143,10 @@ link = '';     }
 			  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfj7GzE2pY3gwpEJNqVqaXKHdZpbtr1I7xGDcNgAgm6kkKsFw/viewform?embedded=true" id="myFrame" >Loading...</iframe>
 		  </center>
 				  </p>
+				<!–– Safe Space Nominee Submission Form, using Google forms
+			Is there a way to embed source code using something other than iframe? 
+			Responsive option would be more accessible on mobile devices
+			May need to think through coding convention for alt text and other accessibility considerations––>
 			</div>
 		</article>
 		
