@@ -1154,7 +1154,8 @@ body {
   padding-left: 40px;
   box-sizing: border-box;
   margin: 20px auto;
-
+  align-items: center;
+  justify-content: center
   
 }
 .hollowcontent_header {
@@ -1175,6 +1176,8 @@ body {
   box-sizing: border-box;
   margin: 20px auto;
   background-color: #87907D;
+  align-items: center;
+  justify-content: center
 
 }
 .content_header {
