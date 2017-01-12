@@ -1154,7 +1154,8 @@ body {
   padding-left: 40px;
   box-sizing: border-box;
   margin: 0 auto;
-  float: center;
+  float: center; 
+  clear: right;
   
 }
 .hollowcontent_header {
@@ -1175,7 +1176,8 @@ body {
   box-sizing: border-box;
   margin: 0 auto;
   background-color: #87907D;
-  float: center;  	
+  float: center; 
+  clear: right;
 }
 .content_header {
   padding: 1em;
