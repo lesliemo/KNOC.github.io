@@ -1145,7 +1145,7 @@ body {
 
 /* Hollow Content Container */
 .hollowcontent_container {
-  width: 80%;
+  width: 100%;
   border: 4px solid #87907D;
   background-color:#FFFFFF;
   padding-top: 20px;
@@ -1166,7 +1166,7 @@ body {
       }
 /* Solid Content Container */
 .content_container {
-    width: 80%;
+    width: 100%;
     border: 4px solid #87907D;
   padding-top: 20px;
   padding-right: 20px;
