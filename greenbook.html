@@ -18,12 +18,28 @@
 	  
 	  <!–– Link to Map CSS ––>
 	  <link rel="stylesheet" type="text/css" href="stylesheets/googlemap-js.css" media="all">
+	  
+	  <! -- banner styling -->
+	  <style>
+#inner {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+  background-color: yellow;
+}
+		  
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  #inner {
+    width: 740px;
+</style>
 	   </head>
 				<!–– Body wrapper ––>
   <body>
     <!–– Banner Display ––>
 	  <header>
-      <div class="inner">
+      <div id="inner">
 	     
                  <h1>Kentucky Nerds of Color</h1>
 	      <!–– KNOC Logo (positioned above nav) ––>
@@ -43,7 +59,7 @@
 </nav>	
        </div>
     </header>
-
+<section>
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
