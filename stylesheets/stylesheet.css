@@ -1152,6 +1152,8 @@ body {
   padding-left: 40px;
   box-sizing: border-box;
   margin: 0;
+  float: center;
+  clear: right;	
 }
 .hollowcontent_header {
   padding: 1em;
@@ -1171,6 +1173,8 @@ body {
   box-sizing: border-box;
   margin: 0;
   background-color: #87907D;
+  float: center;
+  clear: right;		
 }
 .content_header {
   padding: 1em;
