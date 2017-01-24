@@ -451,9 +451,11 @@ header {
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  background: #275da1;
   background-image: url("images/knoc_knoc_banner.png");
   border-bottom: solid 1px #275da1;
 }
+
 
 header h1 {
   width: 540px;
