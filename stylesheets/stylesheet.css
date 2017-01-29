@@ -486,9 +486,9 @@ header h2 {
   background-image: url(../images/knoc logo.jpg) 0 0 repeat-x;
 
 }
-.logo_wrap{
+.logo_wrap {
   position: relative;
-  width: 940px;
+  width: 800px;
   margin: 0 auto;
   background-color: #87907D;
 }
