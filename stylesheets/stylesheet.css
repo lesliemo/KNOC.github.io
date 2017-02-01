@@ -419,8 +419,6 @@ optgroup {
 directory {
   table-layout: auto;
   width: 100%;
-  text-align: left;
-  vertical-align: center;
   padding: 15px;
   white-space: normal;
 }
