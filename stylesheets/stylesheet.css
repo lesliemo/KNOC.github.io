@@ -423,6 +423,9 @@ directory {
   white-space: normal;
 }
 
+directory tr:hover {background: #555;}
+directory tr:hover tr {display: block;}
+
 table {
   border-spacing: 0;
   border-collapse: collapse;
