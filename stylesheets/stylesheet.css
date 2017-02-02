@@ -423,7 +423,7 @@ directory {
   white-space: normal;
 }
 
-directory tr:hover {background: #555;}
+directory tr:hover {background-color: #acc6a1;}
 directory tr:hover tr {display: block;}
 
 table {
