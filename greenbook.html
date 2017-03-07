@@ -76,6 +76,11 @@ tr.directory:nth-child(even){background-color: #acc6a1;}
 directory tr:hover {background-color: #000000;}
 directory td:hover tr {display: block;
 	background-color: #acc6a1;}
+.keys {
+	 -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+		  }
 		  
 </style>
 	   </head>
@@ -205,7 +210,8 @@ link = '';     }
 		</div>
 		</article>
 	      <article>
-		<div class="content_container">
+		      <div class="keys">
+		     <div class="content_container">
 		  <div class="hollowcontent_container">
 			  <div class="map_key">
 			   <center><h1>Map key.</h1> </center>
@@ -273,6 +279,7 @@ link = '';     }
 </div>
 </div>
 </div>
+				</div>
 				</article>
 	      <article>
 <div class="content_container">
