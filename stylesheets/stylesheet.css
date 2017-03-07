@@ -1169,10 +1169,11 @@ body {
   padding-bottom: 20px;
   padding-left: 40px;
   box-sizing: border-box;
-  margin: 0 auto;
+  margin: auto;
   align-items: center;
   justify-content: center
-  
+  position: relative;
+
 }
 .hollowcontent_header {
   padding: 1em;
@@ -1190,10 +1191,11 @@ body {
   padding-bottom: 20px;
   padding-left: 20px;
   box-sizing: border-box;
-  margin: 0 auto;
+  margin: auto;
   background-color: #87907D;
   align-items: center;
   justify-content: center
+  position: relative;
 
 }
 .content_header {
