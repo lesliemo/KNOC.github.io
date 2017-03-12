@@ -1159,7 +1159,6 @@ body {
   border-width: 7px 7px 7px 0;
 }
 
-/* Hollow Content Container */
 .hollowcontent_container {
   border: 4px solid #87907D;
   background-color:#FFFFFF;
@@ -1181,8 +1180,8 @@ body {
     clear: left;
     text-align: center;
       }
-/* Solid Content Container */
-.content_container {
+/* Right Solid Content Container */
+.rightcontent_container {
   border: 4px solid #87907D;
   padding-top: 20px;
   padding-right: 20px;
@@ -1194,12 +1193,23 @@ body {
   align-items: center;
   justify-content: center
   position: relative;
+  float: right;
 
 }
-.content_header {
-  padding: 1em;
-    color: #000000;
-    background-color: #FFFFFF;
-    clear: left;
-    text-align: center;
-      }
+/* Left Solid Content Container */
+.leftcontent_container {
+  border: 4px solid #87907D;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  box-sizing: initial;
+  margin: auto;
+  background-color: #87907D;
+  align-items: center;
+  justify-content: center
+  position: relative;
+  float: left;
+
+}
+
