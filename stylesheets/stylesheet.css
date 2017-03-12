@@ -1194,6 +1194,7 @@ body {
   justify-content: center
   position: relative;
   float: right;
+  margin: 0 0 10px 10px;
 
 }
 /* Left Solid Content Container */
@@ -1210,6 +1211,7 @@ body {
   justify-content: center
   position: relative;
   float: left;
+  margin: 0 0 10px 10px;
 
 }
 /* Left Solid Content Container */
