@@ -1195,6 +1195,7 @@ body {
   position: relative;
   float: right;
   margin: 0 0 10px 10px;
+  width: 100%;	
 }
 
 /* Left Solid Content Container */
@@ -1212,6 +1213,7 @@ body {
   position: relative;
   float: left;
   margin: 0 0 10px 10px;
+  width: 100%;
 }
 
 /* Solid Content Container */
