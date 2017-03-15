@@ -77,6 +77,65 @@ directory tr:hover {background-color: #000000;}
 directory td:hover tr {display: block;
 	background-color: #acc6a1;}
 		  
+		  
+.flex-grid-thirds {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-grid-thirds .col {
+  width: 64%;
+}
+.hollowcontent_container {
+  border: 4px solid #87907D;
+  background-color:#FFFFFF;
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  box-sizing: inherit;
+  margin: auto;
+  align-items: center;
+  justify-content: center
+  position: relative;
+
+}
+td.map_key {
+	font-size: 20px;
+	float: left;
+  	width: 50%;
+  	margin: 10px;
+  	border: 3px solid #73AD21;
+		  }
+
+@media (max-width: 400px) {
+  .flex-grid,
+  .flex-grid-thirds {
+    display: block;
+    .col {
+      width: 100%;
+      margin: 0 0 10px 0;
+    }
+    
+  }
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+}
+.flex-grid { 
+  margin: 0 0 20px 0;
+}
+.col {
+  background: #87907D;
+  padding: 20px;
+}
+		  
 </style>
 	   </head>
 				<!–– Body wrapper ––>
@@ -280,6 +339,75 @@ link = '';     }
 		</article>     
 	<article>	
 <div class="hollowcontent_container">  	</div>
+		</article>
+	
+	<article>	
+<div class="hollowcontent_container">
+		
+<div class="flex-grid-thirds">
+  <div class="col"> <div class="hollowcontent_container">
+			      <div class="map_key">
+  <center><h1>Map key.</h1> </center>
+		<p>			  &nbsp; 		</p>
+ <center>
+ <table style="width:100%">
+  <tr>
+    <td><img src="images/mapmarkers/red hollow.png" alt="Red marker" height="30" width="30"></td>
+    <td><b>Utilities</b></td>
+    </tr>
+<tr height="50">
+    <td><img src="images/mapmarkers/orange hollow.png" alt="Orange marker" height="30" width="30"> </td>
+    <td font-size="36px"><b>Businesses</b></td>
+    </tr>
+  <tr>
+    <td><img src="images/mapmarkers/yellow hollow.png" alt="Yellow marker" height="30" width="30"></td>
+    <td><b>Programming & Advocacy</b></td>
+    </tr>
+  <tr>
+    <td><img src="images/mapmarkers/green hollow.png" alt="Green marker" height="30" width="30"></td>
+    <td><b>Women's Resources</b></td>
+    </tr>
+  <tr>
+    <td><img src="images/mapmarkers/blue hollow.png" alt="Blue marker" height="30" width="30"></td>
+    <td><b>Legal Aid</b></td>
+    </tr>
+  <tr>
+    <td><img src="images/mapmarkers/black hollow.png" alt="Black marker" height="30" width="30"></td>
+    <td><b>Cultural Organizations</b></td>
+    </tr>
+  <tr>
+    <td><img src="images/mapmarkers/purple hollow.png" alt="Purple marker" height="30" width="30"></td>
+    <td><b>LBGTQI Advocacy Organizations</b></td>
+    </tr>				  
+</table>
+	 </center>
+		   <br/>
+		</div>
+			</div>  </div>
+   <div class="col">
+   <div class="hollowcontent_container">
+					<div class="inclusion">
+	 <p>			  &nbsp; 		</p>
+					<center><h1> 		How Inclusive is this Resource? 	</h1></center>
+					 <p>			  &nbsp; 		</p>
+				<table style="width:100%">
+				<tr>
+   				 <td><img src="images/mapmarkers/woman.png" alt="Women's Resources marker" height="45" width="35"></td>
+    				<td><b>Resource (Default)</b></td>
+   				 </tr>
+				<tr>
+   				 <td><img src="images/mapmarkers/intersectionalwomen.png" alt="Intersectional Women's Resources marker" height="45" width="50"></td>
+					<td font-size="20"><b>Orgs that promote <p></p> intersectionality*</b></td>
+   				 </tr>
+					</table>
+					<p></p>
+					<center><p font-size="14">*Confirmed</p></center>
+				</div>
+			</div>
+   </div>
+</div>
+		
+		</div>
 		</article>
  
 <article>
