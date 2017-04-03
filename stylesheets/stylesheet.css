@@ -459,7 +459,7 @@ header {
   padding-bottom: 40px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   
-  background: #ffffff url(...images/knoc_it_tome.jpg) 0 0 repeat;
+  background: #ffffff url(..images/knoc_it_tome.jpg) 0 0 repeat;
   border-bottom: solid 1px #acc6a1;
 }
 
@@ -765,7 +765,7 @@ footer {
   margin-top: 40px;
   font-size: 13px;
   color: #aaa;
-  background: transparent url('../images/hr.png') 0 0 no-repeat;
+  background: transparent url(../images/hr.png) 0 0 no-repeat;
 }
 
 footer a {
